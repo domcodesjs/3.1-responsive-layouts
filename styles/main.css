@@ -1,6 +1,6 @@
-
 main {
-  margin-top: 60px;
+  margin: 0 auto;
+  width: 1440px;
 }
 
 main h1 {
@@ -16,6 +16,7 @@ main h2 {
   font-family: 'Special Elite', cursive;
   font-size: 24px;
 }
+
 main h3 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
@@ -26,7 +27,38 @@ main h3 {
 main p {
   font-family: 'Roboto', sans-serif;
   margin-top: 0;
+  font-size: 20px;
 }
 
+.group {
+  margin: 100px;
+  display: flex;
+}
 
+.group-one div {
+  margin-right: 20px;
+  flex: 1;
+}
 
+.group-one img {
+  flex: 3;
+}
+
+.group-two div {
+  flex: 1;
+  padding: 10px;
+  position: relative;
+}
+
+.group-three {
+  height: 200px;
+  /* width: 100%; */
+  background-color: #654321;
+  justify-content: space-around;
+}
+
+/* Group Three */
+.group-three img {
+  width: 250px;
+  padding: 10px;
+}
